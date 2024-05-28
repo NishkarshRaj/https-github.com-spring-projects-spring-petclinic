@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ibl"
+  description: "test"
+  annotations:
+    github.com/project-slug: surendra/https://github.com/spring-projects/spring-petclinic.git
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/cpe-portal"
